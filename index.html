@@ -20,8 +20,8 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
+						<a href="#contact" class="icon solid fa-info"><span>Info</span></a>
 						<a href="https://github.com/dmoore092" target="_blank" class="icon brands fa-github"><span>Github</span></a>
 					</nav>
 
@@ -88,34 +88,23 @@
 											</ul>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+												<p class='tech-icons'>
+														<i class="fab fa-html5"></i>
+														<i class="fab fa-css3-alt"></i>
+														<i class="fab fa-js"></i>
+													</p>
+													<a href="http://www.samanddale2020.com/" target="_blank" class="image fit"><img src="images/wedding.png" alt=""></a>
+													<a href='https://github.com/dmoore092/wedding' target="_blank" class=" fa-links fab fa-github"></a>
+													<a href='http://www.samanddale2020.com/' target="_blank" class="fa-links fas fa-link"></a>
+													<p>Wedding Information Website</p>
+													<ul class='tech-desc'>
+														<li>Single Page</li>
+														<li>Vanilla HTML/CSS/Javascript</li>
+														<li>jQuery Image Carousel Plugin</li>
+													</ul>
 										</div>
 										<!-- <div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
 										</div> -->
 									</div>
 								</section>
@@ -124,29 +113,49 @@
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
-									<h2>Contact Me</h2>
+									<h2>My Info and Experience</h2>
 								</header>
-								<form action="#" method="post">
+								<div id="info-flex">
 									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
+										<h4>What I'm Familiar With</h4>
+										<ul>
+											<li>HTML/CSS/Javascript/jQuery</li>
+											<li>Ajax, API Consumption</li>
+											<li>Linux/Apache/MySQL/PHP</li>
+											<li>Java, Swing</li>
+											<li>BASH scripting</li>
+											<li>Vagrant</li>
+										</ul>
 									</div>
-								</form>
+									<div>
+										<h4>What I'm Currently Learning</h4>
+										<ul>
+											<li>PHPUnit - Unit Testing</li>
+											<li>React</li>
+											<li>Node.js/Express - API Development</li>
+											<li>Docker</li>
+										</ul>
+									</div>
+									<div>
+										<h4>What I Want To Learn Next</h4>
+										<ul>
+											<li>SASS/LESS</li>
+											<li>Vue/Angular</li>
+											<li>Laravel</li>
+										</ul>
+									</div>
+								</div>
+								<p>I actively develop, host and maintain <a href="https://www.athleticprospects.com" target="_blank">www.athleticprospects.com</a> for
+								a client. The site includes a MySQL database, with a PHP PDO backend. It also includes custom built user authentication, with secure storage of hashed/salted 
+								passwords. The client collects and maintains around 50+ pieces of information from users in order to manage his business. There is also a custom built administration
+								panel for the client to administer the site, by deleting offending user accounts, downloading a copy of the database, as well as posting to a custom built blog.
+								The site also uses PHPMailer to send emails based on events, such as a user requesting to change their password, or a profile being reported.</p>
+								<p>As the site is in constant development, there are always improvements to be made. There are places where, for expediency I chose to use mysqli to procedurally
+								connect to the database, rather than use OOP. As no frameworks were used to create the site, figuring how the best way to structure the project has been a challenge,
+								and the constant need to manually test site functionality to ensure there weren't any regressions has made clear to me the need to implement unit testing, and 
+								later, integration testing.
+								</p>
+								<p>Contact me at <a href="mailto:dmoore092@gmail.com">dmoore092@gmail.com</a> with any questions.</p>
 							</article>
 
 					</div>

@@ -91,7 +91,12 @@ input, select, textarea {
 	transform: scale(1.1);
 }
 .tech-desc{
-	margin-top: -50px;
+	margin-top: -40px;
+}
+#info-flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 /* Row */
 
